@@ -14,7 +14,7 @@ LOCAL_SCRIPT="${BASE_DIR}/clean.sh"
 CRON_TIME="04:00"
 CRON_SCHEDULE="0 4 * * *"
 
-# 网站目录（按需增删）
+# 网站目录
 WWW_DIRS=(
   "/www"
   "/www/wwwroot"
