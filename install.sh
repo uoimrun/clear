@@ -329,6 +329,7 @@ main(){
 
   sec "节省空间"
   ok "总节省：\$(bytes_to_human "\$SAVED")"
+  ok "已添加定时任务：每天 ${CRON_TIME} 执行"
   ok "完成 ✅"
 }
 main
@@ -344,8 +345,6 @@ setup_cron(){
   echo "$cron_line" >> "$tmpfile"
   crontab "$tmpfile"
   rm -f "$tmpfile"
-
-  ok "已添加定时任务：每天 ${CRON_TIME} 执行"
 }
 
 run_now(){
