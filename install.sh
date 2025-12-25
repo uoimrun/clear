@@ -31,7 +31,7 @@ TMP_DELETE_DAYS="1"            # /tmp /var/tmp 删除超过 1 天的
 CACHE_OLD_DAYS="1"             # /var/cache 删除超过 1 天的
 DROP_CACHES_LEVEL="3"          # 内存清理（狠）
 
-SHOW_DELETED_LIST="false"      # 不刷屏（要刷屏改 true）
+SHOW_DELETED_LIST="false" 
 
 # ===== 输出 =====
 C_RESET="\033[0m"
